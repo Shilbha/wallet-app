@@ -1,0 +1,139 @@
+body{
+	background-image: url('../images/bg1.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	position:absolute;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-left:19%;
+    color:black;
+    height: 20px;
+    width: 25%;
+    margin-top: 25px;
+}
+.container1{
+	position:absolute;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-left:19%;
+    color:black;
+    height: 20px;
+    width: 25%;
+    margin-top: 130px;
+}
+.btn-grad {background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%)}
+.btn-grad {
+            margin-top: 10%;
+            margin-left: 26.5%;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #000;
+            border-radius: 10px;
+            display: block;
+}
+
+.btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
+
+.btn-grad1 {background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%)}
+.btn-grad1 {
+            margin-top: 20%;
+            margin-left: 26.5%;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #000;
+            border-radius: 10px;
+            display: block;
+}
+
+.btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
+
+.btn-grad2 {background-image: linear-gradient(to right, #2c3e50 0%, #3498db  51%, #2c3e50  100%)}
+         .btn-grad2 {
+            margin-top: 20%;
+            margin-left: 26.5%;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #000;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+select{
+ 	margin-top: 7%;
+ 	margin-left: 19%;
+ 	width: 340px;
+ 	height: 25px;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: gray;
+    text-align: center;
+}  
+ .container2{
+	position:absolute;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-left:19%;
+    color:black;
+    height: 20px;
+    width: 25%;
+    margin-top: 50px;
+}
+.container3{
+	position:absolute;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-left:19%;
+    color:black;
+    height: 20px;
+    width: 25%;
+    margin-top: 120px;
+}      
+.container4{
+	position:absolute;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-left:19%;
+    color:black;
+    height: 20px;
+    width: 25%;
+    margin-top: 200px;
+}   

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<head>
+<title></title>
+</head>
+<link rel="stylesheet" href="css/ho1.css">
+<body style="position: fixed;background-color: black; background-image: url('images/bg1.jpg');background-attachment: fixed;background-repeat: no-repeat;background-position: center;background-size: cover;">
+
+<div class="a">
+<p class="p1">Name</p>
+<p class="p2">Sign in</p>
+<p class="p3">Sign up</p>
+<div class="dropdown">
+    <img src="images/t.png" onclick="myFunction()" class="dropbtn">
+    <div id="myDropdown" class="dropdown-content">
+      <a href="ho.html">Add Wallet Points</a>
+      <a href="ho1.html">Check Balance</a>
+      <a href="ho2.html">Transaction List</a>
+      <a href="ho3.html">Payments</a>
+      <a href="login.html">Logout</a>
+
+    </div>
+  </div>
+</div>
+<div>
+    <h1 style="color: white;margin-left: 19%;margin-top: 4%;">Check balance</h1>
+  </div>
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+<input type="text" name="" placeholder=" Enter PIN" class="container" style="text-align: center;color:white;">
+<button class="btn-grad" onclick="window.location.href=''">SUBMIT</button>
+<button class="btn-grad1" onclick="window.location.href=''">CANCEL</button>
+</body>
+</html>
+

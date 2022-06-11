@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<head>
+<title></title>
+</head>
+<link rel="stylesheet" href="css/ho3.css">
+<body style="position: fixed;background-color: black; background-image: url('images/bg1.jpg');background-attachment: fixed;background-repeat: no-repeat;background-position: center;background-size: cover;">
+<div class="a">
+<!-- <p class="p1" style="margin-left: 20px;">Name</p> -->
+<p class="p2">Sign in</p>
+<p class="p3">Sign up</p>
+<div class="dropdown">
+    <img src="images/t.png" onclick="myFunction()" class="dropbtn">
+    <div id="myDropdown" class="dropdown-content">
+      <a href="ho.html">Add Wallet Points</a>
+      <a href="ho1.html">Check Balance</a>
+      <a href="ho2.html">Transaction List</a>
+      <a href="ho3.html">Payments</a>
+      <a href="login.html">Logout</a>
+    </div>
+  </div>
+</div>
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+</script>
+<button class="btn-grad" onclick="window.location.href='ho4.html'">Pay Utility Bills</button>
+<button class="btn-grad1" onclick="window.location.href='ho5.html'">Recharge Mobile</button>
+<button class="btn-grad2" onclick="window.location.href='ho6.html'">Recharge DTH</button>
+<button class="btn-grad3" onclick="window.location.href='ho7.html'">Pay Corp/Water Tax </button>
+</body>
+</html>
+

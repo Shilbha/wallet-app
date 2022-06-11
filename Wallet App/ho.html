@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<head>
+<title></title>
+</head>
+<link rel="stylesheet" href="css/ho.css">
+<body style="position: fixed;background-color: black; background-image: url('images/bg1.jpg');background-attachment: fixed;background-repeat: no-repeat;background-position: center;background-size: cover;">
+<div class="a">
+<p class="p1">WALLETO</p>
+<p class="p2">Sign in</p>
+<p class="p3">Sign up</p>
+<div class="dropdown">
+    <img src="images/t.png" onclick="myFunction()" class="dropbtn">
+    <div id="myDropdown" class="dropdown-content">
+      <a href="ho.html">Add Wallet Points</a>
+      <a href="ho1.html">Check Balance</a>
+      <a href="ho2.html">Transaction List</a>
+      <a href="ho3.html">Payments</a>
+      <a href="login.html">Logout</a>
+
+
+    </div>
+  </div>
+</div>
+<div>
+    <h1 style="color: white;margin-left: 18%;margin-top: 4%;">Add wallet points</h1>
+  </div>
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+<form class="main" id="form">
+  <input type="text" placeholder="Enter PIN" id="pin" class="ip1" >
+  <br>
+  <input type="text" placeholder="Account Number" id="acct" class="ip1">
+  <br>
+  <input type="text" placeholder="Amount" id="amt" class="ip1">
+  <br>
+  <button type="submit" class="btn" style="margin-left: 40px;">SUBMIT</button>
+  <button type="submit" class="btn" style="margin-left:50px;">CANCEL</button>
+<!-- <input type="text" name="" placeholder=" Enter PIN" class="container" style="text-align: center;color:white;" id="password">
+<br>
+<input type="text" name="" placeholder=" Amount" class="container1" style="text-align: center;color:white;" id="amt">
+<input type="text" name="" placeholder=" Account Number" class="container2" style="text-align: center;color:white;" id="amt">
+<button class="btn-grad" onclick="window.location.href=''">SUBMIT</button>
+<button class="btn-grad1" onclick="window.location.href=''">CANCEL</button> -->
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+	 <script type="text/javascript" src="addPoints.js"></script>
+</body>
+</html>
+
